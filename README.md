@@ -26,6 +26,7 @@ The dataset includes **1,000 taxi trip records** with the following features:
 - `Trip_Price`: Target variable (fare amount in USD)
 
 The dataset contains also missing values and outliers, providing the opportunity to face data cleaning challenges.
+This dataset is designed to predict taxi trip fares based on various factors such as distance, time of day, traffic conditions, and more. It provides realistic synthetic data for regression tasks, offering a unique opportunity to explore pricing trends in the taxi industry.
 
 ## Project Structure
 
