@@ -36,9 +36,14 @@ The project includes the following files and folders, organized by type and purp
 - Data_cleaning (code for cleaning): Code used for cleaning and transforming the original dataset, including handling missing values and normalization.
 - Data_clean (csv): Dataset resulting from data cleaning and preprocessing, ready for modeling.
 - Linear_model_taxi (code): Code implementing linear models for prediction based on taxi trip data. It contains also feature selection procedures such as best subset selection. 
-- SVM_taxi (code): Code implementing the Support Vector Machine (SVM) model for analyzing and predicting taxi trip data.
-- Decision_Trees_taxi (code): Code for building and training Decision Tree models applied to taxi trip data.
+- SVM_taxi (code): Code implementing the Support Vector Machine (SVM) model for analyzing and predicting taxi trip data. Particularly: SVR with parameters found by Cross Validation.
+- Decision_Trees_taxi (code): Code for building and training Decision Tree models applied to taxi trip data. Including Cost Complexity Pruning and Gradient Boosting. 
 
 # Conclusion
+If we focus only on prediction performance, the Support Vector Regression with a non-linear kernel is the best one with an accuracy of 99.46%
 
+In this scenarion, we can conclude that **non-linear models handle categorical variables better**.
+In linear models, categorical variables were often not significant unless interaction terms were introduced between them. Nonlinear models, on the other hand, can automatically capture these relationships without the need to manually create new terms.
+
+Compared with linear regression, nonlinear models (such as Decision Trees, Random Forests, or SVMs with nonlinear kernels) performed better, however, **they are more difficult to interpret**.
 
