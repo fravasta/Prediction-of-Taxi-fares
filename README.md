@@ -34,9 +34,10 @@ The project includes the following files and folders, organized by type and purp
 - Taxi_trip_pricing (csv): Dataset containing the original taxi trip pricing data.
 - Data_cleaning (code for cleaning): Code used for cleaning and transforming the original dataset, including handling missing values and normalization.
 - Data_clean (csv): Dataset resulting from data cleaning and preprocessing, ready for modeling.
-- Linear_model_taxi (code): Code implementing linear models for prediction based on taxi trip data.
+- Linear_model_taxi (code): Code implementing linear models for prediction based on taxi trip data. It contains also feature selection procedures such as best subset selection. 
 - SVM_taxi (code): Code implementing the Support Vector Machine (SVM) model for analyzing and predicting taxi trip data.
 - Decision_Trees_taxi (code): Code for building and training Decision Tree models applied to taxi trip data.
-- Prediction_models (code): Contains generic or supplementary scripts for building and evaluating predictive models.
+
+# Conclusion
 
 
